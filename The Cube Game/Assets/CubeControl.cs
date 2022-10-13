@@ -33,11 +33,11 @@ public class CubeControl : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         transform.position -= transform.forward * Time.deltaTime;
         
-        if (Input.GetKeyDown(KeyCode.Space))
+      //  if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(cubeTemplate,
-                transform.position - transform.forward,
-                Quaternion.identity);
+           // Instantiate(cubeTemplate,
+            //    transform.position - transform.forward,
+              //  Quaternion.identity);
         }
 
     

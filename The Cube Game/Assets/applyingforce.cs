@@ -32,6 +32,6 @@ public class applyingforce : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         collision.transform.position += Vector3.down;
-        
+       
     }
 }
