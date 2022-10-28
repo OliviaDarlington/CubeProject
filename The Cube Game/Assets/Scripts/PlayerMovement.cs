@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // I watched a tutorial on yt for this, Single Sapling Games is the channel name
-
+   // https://youtu.be/qc0xU2Ph86Q - link to video
+   
     //Variables
 
     [SerializeField] private float moveSpeed;
